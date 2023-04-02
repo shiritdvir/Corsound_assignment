@@ -26,7 +26,7 @@ Note: There is a docker file available.
 <pre>
 git clone https://github.com/shiritdvir/Corsound_assignment.git
 </pre>
-2. Download the data from https://bil.eecs.yorku.ca/datasets/ & change the path in the config
+2. Download the data from https://bil.eecs.yorku.ca/datasets/#:~:text=https%3A//www.eecs.yorku.ca/~bil/Datasets/for%2D2sec.tar.gz & change the path in the config
 3. Install requirements file
 <pre>
 cd /path/to/code
