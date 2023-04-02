@@ -35,3 +35,11 @@ pip install -r requirements.txt
 <pre>
 python main.py
 </pre>
+
+To run via the docker open the terminal and run the following commands:
+<pre>
+cd /path/to/code
+docker build -t your_image_name .
+docker run -it --rm your_image_name
+</pre>
+Note: Change parameters in the config if needed.
