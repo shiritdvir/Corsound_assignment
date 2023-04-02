@@ -22,28 +22,29 @@ Note: There is a docker file available.
 
 ## Instructions
 
-1. Clone the repository via:
+1. Clone the repository:
 <pre>
 git clone https://github.com/shiritdvir/Corsound_assignment.git
 </pre>
-2. Download the data from https://www.eecs.yorku.ca/~bil/Datasets/for-2sec.tar.gz & change the path in the config
-3. Install requirements file
+2. Run the following:
+```
+cd Corsound_assignment
+curl -O https://www.eecs.yorku.ca/~bil/Datasets/for-2sec.tar.gz
+mkdir -p ./data && tar -xzf ./for-2sec.tar.gz -C ./data/
+```
+### Run locally
 <pre>
-cd /path/to/code
 pip install -r requirements.txt
-</pre>
-4. Run main.py
-<pre>
 python main.py
 </pre>
 
-To run via the docker open the terminal and run the following commands:
+### Run via docker
 <pre>
-cd /path/to/code
-docker build -t your_image_name .
-docker run -it --rm your_image_name
+docker build -t corsound_assignmnet .
+docker run -it --rm -v ./data/for-2seconds:/app/data/for-2seconds corsound_assignmnet
 </pre>
-Note: Change parameters in the config if needed.
+
+Note: Change parameters in the config if needed (epochs/lr/etc.).
 
 ## Results
 The results are available in the [notbook](https://github.com/shiritdvir/Corsound_assignment/blob/main/Corsound_assignement.ipynb).
