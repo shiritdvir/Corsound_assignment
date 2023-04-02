@@ -1,5 +1,5 @@
 # Data parameters
-data_path = "/data/"
+data_path = "./data/for-2seconds"
 test_size = 0.2
 
 # Model parameters
