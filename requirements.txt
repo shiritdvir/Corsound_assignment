@@ -1,0 +1,7 @@
+transformers
+datasets
+torchaudio
+scikit-learn
+matplotlib
+seaborn
+pyeer
