@@ -26,12 +26,13 @@ Note: There is a docker file available.
 <pre>
 git clone https://github.com/shiritdvir/Corsound_assignment.git
 </pre>
-2. Install requirements file
+2. Download the data from https://bil.eecs.yorku.ca/datasets/ & change the path in the config
+3. Install requirements file
 <pre>
 cd /path/to/code
 pip install -r requirements.txt
 </pre>
-3. Run main.py
+4. Run main.py
 <pre>
 python main.py
 </pre>
