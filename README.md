@@ -39,12 +39,14 @@ python main.py
 </pre>
 
 ### Run via docker
+> When running on a GPU-supported machine, change the Dockerfile line `FROM python:3.9-slim` to `FROM pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel`.
 <pre>
 docker build -t corsound_assignmnet .
-docker run -it --rm -v ./data/for-2seconds:/app/data/for-2seconds corsound_assignmnet
+docker run -it --rm -v PATH_TO_DATA:/app/data/for-2seconds corsound_assignmnet
 </pre>
+Replace `PATH_TO_DATA` with the absolute local path to for-2seconds dataset.
 
-Note: Change parameters in the config if needed (epochs/lr/etc.).
+Note: Modify the parameters in the configuration as needed (such as epochs, learning rate, etc.).
 
 ## Results
 The results are available in the [notbook](https://github.com/shiritdvir/Corsound_assignment/blob/main/Corsound_assignement.ipynb).
