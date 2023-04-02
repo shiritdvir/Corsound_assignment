@@ -44,3 +44,6 @@ docker build -t your_image_name .
 docker run -it --rm your_image_name
 </pre>
 Note: Change parameters in the config if needed.
+
+## Results
+The results are available in the [notbook](https://github.com/shiritdvir/Corsound_assignment/blob/main/Corsound_assignement.ipynb).
