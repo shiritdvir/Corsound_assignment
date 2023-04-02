@@ -7,5 +7,6 @@ RUN pip install -r requirements.txt
 
 COPY src /app/src
 COPY main.py /app/main.py
+COPY config.py /app/config.py
 
 CMD ["python", "main.py"]
