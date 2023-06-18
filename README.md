@@ -1,4 +1,4 @@
-# Real speech classifier assignment
+# Fake/Real Speech Classifier 
 
 ## Objective:
 In this home test, the goal is to fit a classifier to distinguish real speech from fake.
