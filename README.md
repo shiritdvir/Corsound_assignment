@@ -1,4 +1,4 @@
-# Corsound_assignment
+# real-speech-classifier-assignment
 
 ## Objective
 The goal is to fit a classifier to distinguish real speech from fake. A solution is expected to
