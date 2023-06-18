@@ -5,10 +5,11 @@ In this home test, the goal is to fit a classifier to distinguish real speech fr
 
 ## Data:
 The data used for the assignment is available in https://bil.eecs.yorku.ca/datasets/.
-The dataset contains directories in the following structure:
+The dataset contains directories of training, validation and test sets, each with fake and real directories. 
 
-<img width="167" alt="Screen Shot 2023-04-02 at 13 56 41" src="https://user-images.githubusercontent.com/53824160/229355847-ad105612-f155-46a1-8244-755b95804675.png">
-
+## Task:
+Build a DL model that having an audio input (waveform) outputs a score with associated
+threshold to classify real/fake speech.
   
 ## Requirements: 
 Required packages:
