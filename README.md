@@ -1,5 +1,11 @@
 # Corsound_assignment
 
+## Objective
+The goal is to fit a classifier to distinguish real speech from fake. A solution is expected to
+be a DL model that having an audio input (waveform) outputs a score with associated
+threshold to classify real/fake speech. As a target metric we suggest using EER (equal error
+rate).
+
 ## Data
 The data used for the assignment is available in https://bil.eecs.yorku.ca/datasets/.
 The dataset contains directories in the following structure:
